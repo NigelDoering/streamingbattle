@@ -1,0 +1,88 @@
+/* Adding a background image */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("data/logos.png");
+
+  /* Full height */
+  height: 85%;
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 15px
+}
+
+body {
+  background-color: #f3e5e5;
+}
+
+/* Creates flex box for first two charts */
+.chart-parent--container {
+  display: flex;
+}
+
+.chart--container {
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+  background-color: #f3e5e5;
+}
+#summaryCharts {
+  padding-top: 0%;
+}
+
+/* Adjusting the titles */
+.title {
+  text-align: center;
+}
+#main {
+  color: white;
+  padding-top: 70px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#sub {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#presentation {
+  padding-top: 20%;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#summary-title {
+  padding-top: 20%;
+  font-size: 70px;
+  padding-top: 10%;
+  padding-bottom: 0;
+}
+.analysis {
+  padding-top: 0;
+}
+
+/* puting radar and title in flex box */
+.radar-parent--container {
+  display: flex;
+  height: 650px;
+  margin-bottom: 15%;
+  margin-top: 15%
+}
+#titles {
+  width: 50%;
+  height: 50%;
+  margin-left: 5%
+}
+.myChart {
+  height: 100%;
+  width: 60%;
+  background-color: #f3e5e5
+}
+

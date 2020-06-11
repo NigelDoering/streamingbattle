@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>DSC106 - HW5 ZingCharts Demo</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Paytone+One&display=swap" rel="stylesheet" />
+	<link href="./styles.css" rel="stylesheet" />
+	<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+	<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script src="./main.js"></script>
+
+	<title>The Best of the Best</title>
+</head>
+
+<body>
+	<div class="bg">
+		<h1 id="main" class="title">To View or Not to View</h1>
+		<h2 id="sub" class="title">Which Service Will Rule Above the Rest?</h2>
+		<p id="presentation">Presented by: Bailey Man and Nigel Doering</p>
+	</div>
+
+	<br>
+	<h2 id="summary-title" class="title">Netflix Strikes First</h2>
+	<p id="analysis" class="title">Netflix demonstrates a clear advantage with the number of highly rated shows</p>	
+	<section id="summaryCharts" class="chart-parent--container">
+		<section id="averages_chart" class="chart--container"></section>
+		<section id="totals_chart" class="chart--container"></section>
+	</section>
+	
+		
+	<section id="radar" class="radar-parent--container">
+		<section id="titles" class="chart--container">
+			<h2 id="summary-title" class="title">Hulu Hits Back</h2>
+			<p id="analysis" class="title">While Netflix has the most shows for those over 18, Hulu has a clear advantage for younger viewers.
+				Prime Video lags behind in third for most categories, with Disney+ a distant fourth.</p>
+		</section>
+		<section id="myChart" class="chart--container"></section>
+	</section>
+</body>
