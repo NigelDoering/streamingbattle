@@ -1,3 +1,4 @@
+/* Graphing the chart for averages */
 function graph_averages() {
 
     Highcharts.chart('averages_chart', {
